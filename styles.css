@@ -60,23 +60,21 @@ img{max-width:100%;display:block}
 .hero .corner-r{position:absolute;top:64px;right:28px;color:#fff;font-size:11.5px;text-align:right;line-height:1.5;opacity:.9}
 .hero .corner-r b{display:block;font-weight:600}
 .hero .corner-r span{color:#cfcac2}
-.hero .wordmark{
-  position:relative;z-index:2;
-  font-family:'Archivo Black','Inter',sans-serif;
-  font-size:clamp(64px,12.6vw,196px);line-height:.86;letter-spacing:-.015em;
-  color:#fff;text-transform:uppercase;text-align:center;
-  padding:0 12px;margin-bottom:-.06em;white-space:nowrap;
+.hero .hero-logo{
+  position:relative;z-index:2;display:block;
+  width:clamp(220px,42vw,640px);height:auto;
+  margin:0 auto 9vh;
 }
 @keyframes rise{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
-.hero .wordmark{animation:rise 1s cubic-bezier(.2,.7,.2,1) both .1s}
+.hero .hero-logo{animation:rise 1s cubic-bezier(.2,.7,.2,1) both .1s}
 
 /* ---------- Bands & diagonal cuts ---------- */
-.band{padding:72px 28px 96px}
+.band{padding:80px 28px 130px}
 .band-light{background:var(--white);color:var(--ink)}
 .band-off{background:var(--off);color:var(--ink)}
 .band-dark{background:var(--black);color:#e9e6e1}
-.cut-down{clip-path:polygon(0 0,100% 4.5vw,100% 100%,0 100%);margin-top:-4.5vw;padding-top:calc(72px + 4.5vw)}
-.cut-up{clip-path:polygon(0 0,100% 0,100% calc(100% - 4.5vw),0 100%);padding-bottom:calc(96px + 4.5vw)}
+.cut-down{padding-top:96px}
+.cut-up{padding-bottom:120px}
 .wrap{max-width:1180px;margin:0 auto}
 
 /* ---------- Statement type (Fuel signature) ---------- */
