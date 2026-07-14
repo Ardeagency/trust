@@ -60,6 +60,19 @@ img{max-width:100%;display:block}
 .hero .corner-r{position:absolute;top:64px;right:28px;color:#fff;font-size:11.5px;text-align:right;line-height:1.5;opacity:.9}
 .hero .corner-r b{display:block;font-weight:600}
 .hero .corner-r span{color:#cfcac2}
+.hero .seal{
+  position:absolute;top:84px;right:44px;z-index:3;
+  width:168px;height:168px;border-radius:50%;
+  border:1.5px solid var(--fire);outline:1px solid rgba(255,77,58,.35);outline-offset:5px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
+  text-align:center;color:#fff;transform:rotate(7deg);
+  background:rgba(13,12,11,.42);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);
+}
+.hero .seal .s-star{color:var(--fire);font-size:15px;line-height:1}
+.hero .seal .s-title{font-weight:800;font-size:19px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1}
+.hero .seal .s-sub{font-size:11px;font-weight:600;color:#fff;letter-spacing:.04em}
+.hero .seal .s-foot{font-size:8.5px;letter-spacing:.16em;text-transform:uppercase;color:#cfcac2;line-height:1.5;margin-top:3px}
+@media(max-width:760px){.hero .seal{width:128px;height:128px;top:76px;right:20px}.hero .seal .s-title{font-size:15px}.hero .seal .s-foot{font-size:7.5px}}
 .hero .hero-logo{
   position:relative;z-index:2;display:block;
   width:clamp(220px,42vw,640px);height:auto;
