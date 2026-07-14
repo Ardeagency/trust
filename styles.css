@@ -37,14 +37,13 @@ img{max-width:100%;display:block}
 
 /* ---------- Header ---------- */
 .site-header{
-  position:fixed;top:0;left:0;right:0;z-index:80;
-  padding:18px 28px;pointer-events:none;
-  display:flex;align-items:flex-start;justify-content:space-between;
-  mix-blend-mode:difference;
+  position:absolute;top:0;left:0;right:0;z-index:80;
+  padding:22px 28px;pointer-events:none;
+  display:flex;align-items:center;justify-content:space-between;
 }
 .site-header a{pointer-events:auto}
 .brand{display:flex;align-items:baseline;gap:6px;text-decoration:none;color:#fff}
-.brand .logo-img{height:20px;width:auto;display:block}
+.brand .logo-img{height:34px;width:auto;display:block}
 .site-nav{display:flex;gap:34px}
 .site-nav a{color:#fff;text-decoration:none;font-size:12.5px;font-weight:500}
 .site-nav a sup{font-size:8.5px;color:#bbb;margin-left:4px}
@@ -69,6 +68,12 @@ img{max-width:100%;display:block}
 .hero .seal .s-title{font-weight:800;font-size:21px;letter-spacing:.3em;text-transform:uppercase;text-indent:.3em}
 @media(max-width:760px){.hero .seal{width:140px;height:140px;top:76px;right:22px}.hero .seal .ring{font-size:14px;letter-spacing:.22em}.hero .seal .s-title{font-size:15px}}
 
+.hero .hero-title{
+  position:relative;z-index:2;width:100%;max-width:1180px;margin:0 auto;
+  padding:0 28px 64px;color:#fff;font-weight:800;text-transform:uppercase;
+  font-size:clamp(36px,6vw,88px);line-height:.98;letter-spacing:-.02em;
+  animation:rise 1s cubic-bezier(.2,.7,.2,1) both .1s;
+}
 @keyframes rise{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
 
 
