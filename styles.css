@@ -175,6 +175,9 @@ tr:last-child td{border-bottom:none}
 .band-dark ul li strong{color:#fff}
 .band a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,77,58,.55)}
 .band a:hover{text-decoration-color:var(--fire)}
+.band a.card{text-decoration:none;color:var(--ink)}
+.band a.card.card-dark{color:#fff}
+.band a.txt-btn{text-decoration:none}
 
 /* pills → plain Swiss chips */
 .pill-row{display:flex;flex-wrap:wrap;gap:8px;margin:32px 0 24px;max-width:900px}
