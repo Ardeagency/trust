@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sub-processor &amp; Provider List | ARDE</title>
+<meta name="description" content="Third-party sub-processors, AI platforms and licensed libraries used by ARDE Agency in the provision of its creative production services.">
+<link rel="icon" href="assets/arde-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="index.html"><span class="logo">arde<span>.</span></span><span class="tag">Vendor Trust Center</span></a>
+    <nav class="site-nav">
+      <a href="index.html">Trust Center</a>
+      <a href="terms.html">Terms</a>
+      <a href="dpa.html">DPA</a>
+      <a href="sub-processors.html" class="active">Sub-processors</a>
+    </nav>
+  </div>
+</header>
+
+<section class="doc-hero">
+  <div class="inner">
+    <div class="kicker">Legal — Data Protection · Document C</div>
+    <h1>Sub-processor &amp; Provider List</h1>
+    <p class="sub">Third parties that may process client materials or client personal data when ARDE provides creative content and AI video production services. Published pursuant to Section 5 of the <a href="dpa.html" style="color:#ff6a58">ARDE DPA</a>.</p>
+    <div class="doc-meta">
+      <span>Version <b>1.0</b></span>
+      <span>Last updated <b>July 14, 2026</b></span>
+      <span>Change notice <b>30 days in advance</b></span>
+      <span>Subscribe <b>contact@ardeagency.com</b></span>
+    </div>
+  </div>
+</section>
+
+<nav class="toc" aria-label="Sections">
+  <a href="#ai">AI generation platforms</a><a href="#higgsfield">Higgsfield Enterprise</a><a href="#licensed">Licensed software &amp; assets</a><a href="#infra">Infrastructure</a><a href="#not">What ARDE does not do</a>
+</nav>
+
+<main class="doc-body">
+
+<div class="note"><b>Change notification.</b> ARDE will notify clients with an executed DPA at least <b>30 days</b> before adding or replacing a sub-processor that processes their personal data. To receive notices, write to <a href="mailto:contact@ardeagency.com">contact@ardeagency.com</a>. Engagement-specific lists (restricted to the providers actually used for a given client) are available on request.</div>
+
+<h2 id="ai">AI generation platforms</h2>
+<p>Client production materials (reference images, product assets, prompts) are processed by these platforms only to generate content for the engagement. ARDE performs client work in <strong>enterprise or business-tier workspaces</strong> whose agreements exclude client inputs and outputs from model training, where the provider offers such terms.</p>
+<div class="tbl-wrap"><table>
+  <tr><th>Provider</th><th>Service</th><th>Data processed</th><th>Safeguards</th></tr>
+  <tr>
+    <td><strong>Higgsfield, Inc.</strong> <em>(primary)</em></td>
+    <td>Enterprise generative video &amp; image platform (aggregated frontier models)</td>
+    <td>Prompts, reference images, product assets, generated outputs</td>
+    <td>Higgsfield <strong>Enterprise</strong> agreement — no-training guarantee, zero rights claimed over content, full data deletion. Detail below.</td>
+  </tr>
+  <tr>
+    <td><strong>KIE.ai</strong></td>
+    <td>Unified API access to generative models (video/image) for selected pipelines</td>
+    <td>Prompts, reference images, generated outputs</td>
+    <td>API-based processing; no client identity data included in prompts</td>
+  </tr>
+  <tr>
+    <td><strong>Anthropic</strong></td>
+    <td>Large language models (creative development, production tooling)</td>
+    <td>Prompts and context necessary for the task</td>
+    <td>Commercial API — inputs/outputs not used to train models by default</td>
+  </tr>
+  <tr>
+    <td><strong>OpenAI</strong></td>
+    <td>Language/image models for selected pipelines</td>
+    <td>Prompts and assets necessary for the task</td>
+    <td>Commercial API — training opt-out configuration</td>
+  </tr>
+  <tr>
+    <td><strong>ElevenLabs, Inc.</strong></td>
+    <td>Generative voice and audio (voiceover, narration, voice effects)</td>
+    <td>Scripts and text; voice reference audio only with the documented consent of the data subject</td>
+    <td>SOC 2 Type II · <a href="https://elevenlabs.io/dpa" target="_blank" rel="noopener">public DPA</a> · training opt-out enabled in account settings · voice cloning only with verified consent (model release) · <a href="https://compliance.elevenlabs.io/resources" target="_blank" rel="noopener">ElevenLabs trust center</a></td>
+  </tr>
+</table></div>
+
+<h2 id="higgsfield">Higgsfield Enterprise — platform commitments (primary generation platform)</h2>
+<p>ARDE produces client content <strong>exclusively within its Higgsfield Enterprise workspace</strong>, operated by Higgsfield, Inc. (United States; EU representative: DataRep, Rouen, France). The Enterprise tier is governed by a separate enterprise agreement whose terms supersede Higgsfield's standard consumer <a href="https://higgsfield.ai/terms-of-use-agreement" target="_blank" rel="noopener">Terms of Use</a> — a distinction that matters, because the standard consumer terms permit content to be used for model training, which is precisely why ARDE contracts and works at the Enterprise tier for all client production. ARDE's Enterprise plan includes the following written commitments from Higgsfield:</p>
+<div class="tbl-wrap"><table>
+  <tr><th>Commitment</th><th>Written Enterprise term</th></tr>
+  <tr><td><strong>No-training guarantee</strong></td><td>"Client uploads, prompts, and generated assets are never used to train Higgsfield or our model partners."</td></tr>
+  <tr><td><strong>Zero rights claimed</strong></td><td>"Zero rights claimed over anything created on the platform." Generated assets are cleared for commercial use; ARDE's clients receive them under the IP assignment in ARDE's <a href="terms.html">Terms</a> §5.</td></tr>
+  <tr><td><strong>Data deletion</strong></td><td>"All data deleted, no retention on our side" — client production data is not retained by Higgsfield after deletion.</td></tr>
+  <tr><td><strong>Workspace security</strong></td><td>Private enterprise workspaces with granular access control and SSO; SOC 2-aligned controls and GDPR compliance per Higgsfield's enterprise documentation.</td></tr>
+  <tr><td><strong>Dedicated support</strong></td><td>Enterprise-only support channel with direct escalation to Higgsfield's engineering team for production issues.</td></tr>
+</table></div>
+<p><strong>Consult Higgsfield directly:</strong>
+<a href="https://higgsfield.ai/enterprise" target="_blank" rel="noopener">Enterprise platform</a> ·
+<a href="https://higgsfield.ai/trust" target="_blank" rel="noopener">Trust, Safety &amp; Platform Policies</a> ·
+<a href="https://higgsfield.ai/terms-of-use-agreement" target="_blank" rel="noopener">Terms of Use</a> ·
+<a href="https://higgsfield.ai/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>.
+A copy of ARDE's Higgsfield Enterprise terms is available to client legal teams under NDA via <a href="mailto:contact@ardeagency.com">contact@ardeagency.com</a>.</p>
+
+<h2 id="licensed">Licensed software &amp; asset libraries</h2>
+<p><strong>Adobe Creative Cloud.</strong> ARDE's entire team operates on active commercial Adobe Creative Cloud licenses for the post-production of deliverables (editing, compositing, VFX, color, retouching and design — Premiere Pro, After Effects, Photoshop, Illustrator, among others). No deliverable is produced with unlicensed software.</p>
+<p><strong>Envato Elements — music and sound effects.</strong> ARDE maintains an active commercial subscription to Envato Elements (Envato Pty Ltd, Australia). Envato does not process client data — it is an inbound source of commercially licensed assets integrated into deliverables. Terms relevant to a client legal review:</p>
+<div class="tbl-wrap"><table>
+  <tr><th>Aspect</th><th>License condition</th></tr>
+  <tr><td><strong>Coverage</strong></td><td>Worldwide, non-exclusive commercial license permitting use in client work (advertising video, campaigns, digital and social content).</td></tr>
+  <tr><td><strong>Per-project registration</strong></td><td>Each asset is registered/licensed for one specific end product ("single use per end product"); a new use in another project generates a new license registration. ARDE retains the license record of every delivered piece.</td></tr>
+  <tr><td><strong>Client hand-over</strong></td><td>On delivery of the end product, the client receives a limited sublicense of the asset as part of the deliverable, per Envato's terms.</td></tr>
+  <tr><td><strong>Limit — broadcast</strong></td><td>The Envato Elements music license <strong>does not cover broadcast use (TV/radio)</strong>. If a deliverable is destined for broadcast, ARDE discloses this and secures a broadcast-suitable music license for that project (quoted in the applicable SOW).</td></tr>
+</table></div>
+<p><strong>Consult Envato directly:</strong> <a href="https://help.elements.envato.com/hc/en-us/articles/360000628966-Envato-Elements-License" target="_blank" rel="noopener">Envato Elements license terms</a> · <a href="https://help.elements.envato.com/hc/en-us/articles/360000629346-Envato-Elements-License-FAQ" target="_blank" rel="noopener">License FAQ</a>.</p>
+
+<h2 id="infra">Infrastructure, storage and collaboration</h2>
+<div class="tbl-wrap"><table>
+  <tr><th>Provider</th><th>Service</th><th>Data processed</th><th>Location</th></tr>
+  <tr><td><strong>Google (Workspace)</strong></td><td>Corporate email, document collaboration, project storage</td><td>Business communications, project files</td><td>US / global</td></tr>
+  <tr><td><strong>Cloudflare</strong></td><td>CDN, security, object storage (R2) for asset delivery</td><td>Project assets in transit/at rest, traffic metadata</td><td>Global network</td></tr>
+  <tr><td><strong>Hetzner Online GmbH</strong></td><td>Cloud servers for internal production tooling</td><td>Processing workloads, project assets</td><td>EU (Germany / Finland)</td></tr>
+  <tr><td><strong>Supabase</strong></td><td>Managed database/storage for internal tooling</td><td>Project and workflow data</td><td>EU / US</td></tr>
+  <tr><td><strong>GitHub (Microsoft)</strong></td><td>Code and configuration repositories, static hosting</td><td>Production tooling (no client personal data by policy)</td><td>US</td></tr>
+  <tr><td><strong>Figma</strong></td><td>Design collaboration and presentations</td><td>Design files, brand assets shared for review</td><td>US</td></tr>
+</table></div>
+
+<h2 id="not">What ARDE does not do</h2>
+<ul>
+  <li>ARDE does not sell or share client personal data (as defined by the CCPA/CPRA).</li>
+  <li>ARDE does not use client materials or personal data to train AI models of general use, nor permit its providers to do so under the tiers it contracts for client work.</li>
+  <li>ARDE does not process client payment-card data; invoicing is settled by bank transfer between the parties.</li>
+  <li>Local production on ARDE-owned workstations (editing, compositing, color) does not leave ARDE's controlled environment.</li>
+</ul>
+
+<p style="margin-top:30px;font-size:14.5px;color:#948b82"><em>Each sub-processor operates under contractual terms with data-protection obligations consistent with the ARDE DPA. ARDE maintains an internal vendor-assessment record and reviews providers periodically. Providers listed may vary per engagement; a client may request the exact provider set used for its projects.</em></p>
+
+<h2>Contact</h2>
+<p><strong>ARDE AGENCY S.A.S.</strong> · NIT 901.856.077-9 · Cl. 6A # 16-45, Ed. Guayacán de la Calera, Medellín, Antioquia, Colombia<br>
+Contact: <a href="mailto:contact@ardeagency.com">contact@ardeagency.com</a></p>
+
+</main>
+
+<footer class="site-footer">
+  <div class="inner">
+    <span class="sig">AI is the engine. Humans are the pilots<span>.</span></span>
+    <span>© 2026 ARDE AGENCY S.A.S. · NIT 901.856.077-9 · Medellín, Colombia</span>
+    <span><a href="index.html">Trust Center</a> · <a href="terms.html">Terms</a> · <a href="dpa.html">DPA</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
