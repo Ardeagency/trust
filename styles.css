@@ -44,8 +44,7 @@ img{max-width:100%;display:block}
 }
 .site-header a{pointer-events:auto}
 .brand{display:flex;align-items:baseline;gap:6px;text-decoration:none;color:#fff}
-.brand .logo{font-weight:800;font-size:16px;letter-spacing:.06em;text-transform:uppercase}
-.brand .logo sup{font-size:8px;font-weight:600}
+.brand .logo-img{height:20px;width:auto;display:block}
 .site-nav{display:flex;gap:34px}
 .site-nav a{color:#fff;text-decoration:none;font-size:12.5px;font-weight:500}
 .site-nav a sup{font-size:8.5px;color:#bbb;margin-left:4px}
@@ -73,13 +72,9 @@ img{max-width:100%;display:block}
 .hero .seal .s-sub{font-size:11px;font-weight:600;color:#fff;letter-spacing:.04em}
 .hero .seal .s-foot{font-size:8.5px;letter-spacing:.16em;text-transform:uppercase;color:#cfcac2;line-height:1.5;margin-top:3px}
 @media(max-width:760px){.hero .seal{width:128px;height:128px;top:76px;right:20px}.hero .seal .s-title{font-size:15px}.hero .seal .s-foot{font-size:7.5px}}
-.hero .hero-logo{
-  position:relative;z-index:2;display:block;
-  width:clamp(220px,42vw,640px);height:auto;
-  margin:0 auto 9vh;
-}
+
 @keyframes rise{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
-.hero .hero-logo{animation:rise 1s cubic-bezier(.2,.7,.2,1) both .1s}
+
 
 /* ---------- Bands & diagonal cuts ---------- */
 .band{padding:80px 28px 130px}
